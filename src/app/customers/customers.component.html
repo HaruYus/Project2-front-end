@@ -1,5 +1,5 @@
 <div>
-    <table>
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th>ID</th>
@@ -11,8 +11,8 @@
         <tbody>
             <tr *ngFor="let eachCustomer of allCustomers">
                 <td>{{ eachCustomer.id }}</td>
-                <td>{{ eachCustomer.firstName }}</td>
-                <td>{{ eachCustomer.lastName }}</td>
+                <td>{{ eachCustomer.firstname }}</td>
+                <td>{{ eachCustomer.lastname }}</td>
                 <td>{{ eachCustomer.username }}</td>
             </tr>
         </tbody>

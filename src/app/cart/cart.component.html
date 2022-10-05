@@ -1,0 +1,18 @@
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr *ngFor="let eachCartItem of allCartItems">
+                <td>{{ eachCartItem.cartId }}</td>
+                <td>{{ eachCartItem.product.name }}</td>
+                <td>{{ eachCartItem.price }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

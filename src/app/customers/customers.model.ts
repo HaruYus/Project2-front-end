@@ -2,6 +2,8 @@ export interface CustomerModel{
     id: number;
     username: string;
     password: string;
-    firstName: string;
-    lastName: string;
+    email: string;
+    firstname: string;
+    lastname: string;
+    image: string;
 }
